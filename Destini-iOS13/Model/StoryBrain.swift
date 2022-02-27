@@ -8,4 +8,16 @@
 
 import Foundation
 
-
+struct StroyBrain {
+    
+    var title: String
+    var choice1: String
+    var choice2: String
+    
+    init(t: String, a: String, b: String) {
+        title = t
+        choice1 = a
+        choice2 = b
+    }
+    
+}
